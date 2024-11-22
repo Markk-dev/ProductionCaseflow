@@ -30,17 +30,17 @@
 # DATABASE
 #--------------------------------------------------------------------
 
- database.default.hostname = localhost
- database.default.database = caseflow
- database.default.username = root
- database.default.password = root
+database.default.hostname = localhost
+database.default.database = dbcaseflow   
+database.default.username = root
+database.default.password = root   
 database.default.DBDriver = MySQLi
-database.default.DBPrefix =
+database.default.DBPrefix = ''
 database.default.port = 3306 
 
 # If you use MySQLi as tests, first update the values of Config\Database::$tests.
 # database.tests.hostname = localhost
-# database.tests.database = ci4_test
+# database.tests.database = dbcaseflow
 # database.tests.username = root
 # database.tests.password = root
 # database.tests.DBDriver = MySQLi

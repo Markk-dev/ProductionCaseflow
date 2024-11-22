@@ -7,4 +7,4 @@ use CodeIgniter\Router\RouteCollection;
  */
 $routes->get('/', 'Home::index');
 
-service('auth')->routes($routes); // This line should register the routes provided by Shield
+service('auth')->routes($routes); 
